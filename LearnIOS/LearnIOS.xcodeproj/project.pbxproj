@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3831F25291ACF1B05926CCFB /* Pods_LearnIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BEE76CED8E129CA3212BCC /* Pods_LearnIOS.framework */; };
+		E54BB04F27E459A4005CDE75 /* LearnIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54BB04E27E459A4005CDE75 /* LearnIOSApp.swift */; };
+		E54BB05127E459A4005CDE75 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54BB05027E459A4005CDE75 /* LoginView.swift */; };
+		E54BB05327E459A7005CDE75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E54BB05227E459A7005CDE75 /* Assets.xcassets */; };
+		E54BB05627E459A7005CDE75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E54BB05527E459A7005CDE75 /* Preview Assets.xcassets */; };
+		E569A7AE27E71E0B0039BF74 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569A7AD27E71E0B0039BF74 /* HomeView.swift */; };
+		E569A7B027E774C60039BF74 /* SliderMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569A7AF27E774C60039BF74 /* SliderMenu.swift */; };
+		E5AC4FC427F1FB5B008375A3 /* APIConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AC4FC327F1FB5B008375A3 /* APIConnection.swift */; };
+		E5AC4FC627F1FBC9008375A3 /* Authtoken.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AC4FC527F1FBC9008375A3 /* Authtoken.swift */; };
+		E5D4B5E227F0DD5700158D7F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D4B5E127F0DD5700158D7F /* LoginViewModel.swift */; };
+		E5D4B5E527F0DD8000158D7F /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D4B5E427F0DD8000158D7F /* UserDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01A6536907BCA921C36ED4CC /* Pods-LearnIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnIOS.debug.xcconfig"; path = "../../LearnIOS/Pods/Target Support Files/Pods-LearnIOS/Pods-LearnIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		63BEE76CED8E129CA3212BCC /* Pods_LearnIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68627C82542D8F9DF02BC23 /* Pods-LearnIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnIOS.release.xcconfig"; path = "../../LearnIOS/Pods/Target Support Files/Pods-LearnIOS/Pods-LearnIOS.release.xcconfig"; sourceTree = "<group>"; };
+		E54BB04B27E459A4005CDE75 /* LearnIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E54BB04E27E459A4005CDE75 /* LearnIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnIOSApp.swift; sourceTree = "<group>"; };
+		E54BB05027E459A4005CDE75 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E54BB05227E459A7005CDE75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E54BB05527E459A7005CDE75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E569A7AD27E71E0B0039BF74 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E569A7AF27E774C60039BF74 /* SliderMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderMenu.swift; sourceTree = "<group>"; };
+		E5AC4FC327F1FB5B008375A3 /* APIConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConnection.swift; sourceTree = "<group>"; };
+		E5AC4FC527F1FBC9008375A3 /* Authtoken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authtoken.swift; sourceTree = "<group>"; };
+		E5D4B5E127F0DD5700158D7F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E5D4B5E427F0DD8000158D7F /* UserDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E54BB04827E459A4005CDE75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3831F25291ACF1B05926CCFB /* Pods_LearnIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FEDEECEEE1EA3DDEDF00305 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01A6536907BCA921C36ED4CC /* Pods-LearnIOS.debug.xcconfig */,
+				C68627C82542D8F9DF02BC23 /* Pods-LearnIOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E54BB04227E459A4005CDE75 = {
+			isa = PBXGroup;
+			children = (
+				E54BB04D27E459A4005CDE75 /* LearnIOS */,
+				E54BB04C27E459A4005CDE75 /* Products */,
+				0FEDEECEEE1EA3DDEDF00305 /* Pods */,
+				E970BB049C0901C106E51722 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E54BB04C27E459A4005CDE75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E54BB04B27E459A4005CDE75 /* LearnIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E54BB04D27E459A4005CDE75 /* LearnIOS */ = {
+			isa = PBXGroup;
+			children = (
+				E5AC4FC227F1FB2F008375A3 /* API */,
+				E5AC4FC127F1F723008375A3 /* Home */,
+				E5D4B5E327F0DD6700158D7F /* Model */,
+				E5D4B5E027F0DD2C00158D7F /* Login */,
+				E54BB04E27E459A4005CDE75 /* LearnIOSApp.swift */,
+				E54BB05227E459A7005CDE75 /* Assets.xcassets */,
+				E54BB05427E459A7005CDE75 /* Preview Content */,
+			);
+			path = LearnIOS;
+			sourceTree = "<group>";
+		};
+		E54BB05427E459A7005CDE75 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E54BB05527E459A7005CDE75 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E5AC4FC127F1F723008375A3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E569A7AF27E774C60039BF74 /* SliderMenu.swift */,
+				E569A7AD27E71E0B0039BF74 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E5AC4FC227F1FB2F008375A3 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E5AC4FC327F1FB5B008375A3 /* APIConnection.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		E5D4B5E027F0DD2C00158D7F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E54BB05027E459A4005CDE75 /* LoginView.swift */,
+				E5D4B5E127F0DD5700158D7F /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E5D4B5E327F0DD6700158D7F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E5AC4FC527F1FBC9008375A3 /* Authtoken.swift */,
+				E5D4B5E427F0DD8000158D7F /* UserDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E970BB049C0901C106E51722 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63BEE76CED8E129CA3212BCC /* Pods_LearnIOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E54BB04A27E459A4005CDE75 /* LearnIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E54BB05927E459A7005CDE75 /* Build configuration list for PBXNativeTarget "LearnIOS" */;
+			buildPhases = (
+				C8CD665E924ECCAF48D9CC83 /* [CP] Check Pods Manifest.lock */,
+				E54BB04727E459A4005CDE75 /* Sources */,
+				E54BB04827E459A4005CDE75 /* Frameworks */,
+				E54BB04927E459A4005CDE75 /* Resources */,
+				75B62A07AA8D0A60A861DDE6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearnIOS;
+			productName = LearnIOS;
+			productReference = E54BB04B27E459A4005CDE75 /* LearnIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E54BB04327E459A4005CDE75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					E54BB04A27E459A4005CDE75 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = E54BB04627E459A4005CDE75 /* Build configuration list for PBXProject "LearnIOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E54BB04227E459A4005CDE75;
+			productRefGroup = E54BB04C27E459A4005CDE75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E54BB04A27E459A4005CDE75 /* LearnIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E54BB04927E459A4005CDE75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E54BB05627E459A7005CDE75 /* Preview Assets.xcassets in Resources */,
+				E54BB05327E459A7005CDE75 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75B62A07AA8D0A60A861DDE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearnIOS/Pods-LearnIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearnIOS/Pods-LearnIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LearnIOS/Pods-LearnIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8CD665E924ECCAF48D9CC83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E54BB04727E459A4005CDE75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E569A7AE27E71E0B0039BF74 /* HomeView.swift in Sources */,
+				E5D4B5E527F0DD8000158D7F /* UserDetail.swift in Sources */,
+				E54BB05127E459A4005CDE75 /* LoginView.swift in Sources */,
+				E54BB04F27E459A4005CDE75 /* LearnIOSApp.swift in Sources */,
+				E5D4B5E227F0DD5700158D7F /* LoginViewModel.swift in Sources */,
+				E5AC4FC627F1FBC9008375A3 /* Authtoken.swift in Sources */,
+				E5AC4FC427F1FB5B008375A3 /* APIConnection.swift in Sources */,
+				E569A7B027E774C60039BF74 /* SliderMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E54BB05727E459A7005CDE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E54BB05827E459A7005CDE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E54BB05A27E459A7005CDE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01A6536907BCA921C36ED4CC /* Pods-LearnIOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LearnIOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delta.LearnIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E54BB05B27E459A7005CDE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C68627C82542D8F9DF02BC23 /* Pods-LearnIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LearnIOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delta.LearnIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E54BB04627E459A4005CDE75 /* Build configuration list for PBXProject "LearnIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E54BB05727E459A7005CDE75 /* Debug */,
+				E54BB05827E459A7005CDE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E54BB05927E459A7005CDE75 /* Build configuration list for PBXNativeTarget "LearnIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E54BB05A27E459A7005CDE75 /* Debug */,
+				E54BB05B27E459A7005CDE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E54BB04327E459A4005CDE75 /* Project object */;
+}
