@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3831F25291ACF1B05926CCFB /* Pods_LearnIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BEE76CED8E129CA3212BCC /* Pods_LearnIOS.framework */; };
 		E54BB04F27E459A4005CDE75 /* LearnIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54BB04E27E459A4005CDE75 /* LearnIOSApp.swift */; };
 		E54BB05127E459A4005CDE75 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54BB05027E459A4005CDE75 /* LoginView.swift */; };
 		E54BB05327E459A7005CDE75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E54BB05227E459A7005CDE75 /* Assets.xcassets */; };
@@ -18,11 +17,11 @@
 		E5AC4FC627F1FBC9008375A3 /* Authtoken.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AC4FC527F1FBC9008375A3 /* Authtoken.swift */; };
 		E5D4B5E227F0DD5700158D7F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D4B5E127F0DD5700158D7F /* LoginViewModel.swift */; };
 		E5D4B5E527F0DD8000158D7F /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D4B5E427F0DD8000158D7F /* UserDetail.swift */; };
+		E5F175E32811469200AA2F51 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F175E22811469200AA2F51 /* LoadingIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01A6536907BCA921C36ED4CC /* Pods-LearnIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnIOS.debug.xcconfig"; path = "../../LearnIOS/Pods/Target Support Files/Pods-LearnIOS/Pods-LearnIOS.debug.xcconfig"; sourceTree = "<group>"; };
-		63BEE76CED8E129CA3212BCC /* Pods_LearnIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68627C82542D8F9DF02BC23 /* Pods-LearnIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnIOS.release.xcconfig"; path = "../../LearnIOS/Pods/Target Support Files/Pods-LearnIOS/Pods-LearnIOS.release.xcconfig"; sourceTree = "<group>"; };
 		E54BB04B27E459A4005CDE75 /* LearnIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E54BB04E27E459A4005CDE75 /* LearnIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnIOSApp.swift; sourceTree = "<group>"; };
@@ -35,6 +34,7 @@
 		E5AC4FC527F1FBC9008375A3 /* Authtoken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authtoken.swift; sourceTree = "<group>"; };
 		E5D4B5E127F0DD5700158D7F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		E5D4B5E427F0DD8000158D7F /* UserDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
+		E5F175E22811469200AA2F51 /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3831F25291ACF1B05926CCFB /* Pods_LearnIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,13 +54,13 @@
 				01A6536907BCA921C36ED4CC /* Pods-LearnIOS.debug.xcconfig */,
 				C68627C82542D8F9DF02BC23 /* Pods-LearnIOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		E54BB04227E459A4005CDE75 = {
 			isa = PBXGroup;
 			children = (
+				E5F175E22811469200AA2F51 /* LoadingIndicator.swift */,
 				E54BB04D27E459A4005CDE75 /* LearnIOS */,
 				E54BB04C27E459A4005CDE75 /* Products */,
 				0FEDEECEEE1EA3DDEDF00305 /* Pods */,
@@ -137,7 +136,6 @@
 		E970BB049C0901C106E51722 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				63BEE76CED8E129CA3212BCC /* Pods_LearnIOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,7 +151,6 @@
 				E54BB04727E459A4005CDE75 /* Sources */,
 				E54BB04827E459A4005CDE75 /* Frameworks */,
 				E54BB04927E459A4005CDE75 /* Resources */,
-				75B62A07AA8D0A60A861DDE6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,23 +207,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		75B62A07AA8D0A60A861DDE6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LearnIOS/Pods-LearnIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LearnIOS/Pods-LearnIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LearnIOS/Pods-LearnIOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C8CD665E924ECCAF48D9CC83 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5F175E32811469200AA2F51 /* LoadingIndicator.swift in Sources */,
 				E569A7AE27E71E0B0039BF74 /* HomeView.swift in Sources */,
 				E5D4B5E527F0DD8000158D7F /* UserDetail.swift in Sources */,
 				E54BB05127E459A4005CDE75 /* LoginView.swift in Sources */,

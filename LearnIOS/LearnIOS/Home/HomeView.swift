@@ -61,7 +61,6 @@ struct MainContentView: View {
     
     var body: some View {
         ZStack {
-            BaseView()
             VStack{
                 List {
                     ForEach(searchResults, id: \.self) { name in

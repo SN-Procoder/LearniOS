@@ -9,5 +9,4 @@ target 'LearnIOS' do
 
   # Pods for LearnIOS
 
-pod 'Alamofire', '~> 5.5'
 end

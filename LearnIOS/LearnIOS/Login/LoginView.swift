@@ -14,15 +14,11 @@ struct LoginView: View {
     @State private var showAlert = false
 
     var body: some View {
-        NavigationView{
             
+        NavigationView{
             ZStack {
-                //BaseView()
+
                 VStack(alignment: .center, spacing: 10){
-                    
-                   
-                    
-                    
                     VStack(alignment: .leading, spacing: 10){
                         
                         Image("Logo")
@@ -68,25 +64,28 @@ struct LoginView: View {
                     }
                     .padding(.bottom,30)
                     
-               
-                    
-
                     VStack(alignment:.center, spacing: 10){
                         
                         NavigationLink(destination: HomeView(), isActive: $isActive) {
+
+
                             Button {
                                    // run your code
-                                   
+
                                    // then set
-                                if(viewModel.userDetail.isValidUser())
+                                viewModel.showLoadingIndicator = true
+                                sleep(3)
+                                if(viewModel.DoLogin())
                                 {
                                     isActive = true
-                                    showAlert = false;
+                                    showAlert = false
                                 }
                                 else{
                                     isActive = false
-                                    showAlert = true;
+                                    showAlert = true
                                 }
+                                //showActivityIndicator = false
+
 
                                }label: {
                                    Text("Log In")
@@ -110,67 +109,24 @@ struct LoginView: View {
                     }
                     Spacer()
                 }
+                LoadingIndicator(isShowing: .constant(viewModel.showLoadingIndicator))
+                    .opacity(viewModel.showLoadingIndicator ? 1 : 0)
+
             }.navigationTitle("Learn iOS with Swift").foregroundColor(.white)
                 .font(.system(size: 12))
                 .navigationBarTitle("")
                 .navigationBarHidden(true)
                 .navigationBarBackButtonHidden(true)
 
+
         }
         
        
     }
-    
-    
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         LoginView()
-    }
-}
-
-struct WeatherDayView: View {
-    var dayOftheWeek:String
-    var tempratur:String
-    var body: some View {
-        VStack{
-            Text(dayOftheWeek)
-                .font(.system(size: 20,weight: .medium))
-                .foregroundColor(.white)
-            Image(systemName: "cloud.sun.fill")
-                .renderingMode(.original)
-                .resizable().aspectRatio(contentMode: .fit)
-                .padding(.all, 5.0)
-                .frame(width: 40, height: 40)
-            Text(tempratur)
-                .font(.system(size: 20,weight: .medium))
-                .foregroundColor(.white)
-        }
-    }
-}
-
-struct BaseView: View {
-    var body: some View {
-        LinearGradient(gradient: Gradient(colors: [.blue, Color("LightBlue")]), startPoint: .topLeading, endPoint: .bottomTrailing).edgesIgnoringSafeArea(.all)
-    }
-}
-
-struct CityView: View {
-    var body: some View {
-        VStack(spacing: 10){
-            Text("Chennai, MAA")
-                .font(.system (size:32, weight: .medium, design: .default))
-                .foregroundColor(.white)
-            Image(systemName: "cloud.sun.fill")
-                .renderingMode(.original)
-                .resizable().aspectRatio(contentMode: .fit)
-                .frame(width: 180, height: 180)
-            
-            Text("70°")
-                .font(.system(size: 70,weight: .medium))
-                .foregroundColor(.white)
-        }
-        .padding(.bottom,40)
     }
 }

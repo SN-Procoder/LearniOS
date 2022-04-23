@@ -9,17 +9,14 @@ import Foundation
 
 class UserDetail: Codable{
     
-    var email:String = ""
-    var password:String = ""
+    var email:String = "eve.holt@reqres.in"
+    var password:String = "cityslicka"
     init(){
         
     }
     func isValidUser()-> Bool{
         
-        if(email=="Admin" && password == "Admin") {
-            return true
-            
-        }
-        return false
+        
+        return true;
     }
 }
